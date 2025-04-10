@@ -1,0 +1,70 @@
+body {
+    padding: 25px;
+    background-color: #fecee9;
+    border: 20px ridge #e2bafa;
+    color: black;
+    font-size: 20px;
+}
+
+.topnav {
+    background-color: #db9cff;
+    overflow: hidden;
+}
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index: 1;
+}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ff9696;
+    color: black;
+}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #fb9bfb;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    align-items: stretch;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: transparent; 
+    transition: transform 0.7s ease-in-out;
+    z-index: -1;
+}
+button:hover{
+   transform: rotate(260deg);
+}
+
+.dark-mode {
+    background-color: #36002a;
+    border: 20px outset #5c0295;
+    color: white;
+}
+
+img {
+    border-radius: 50%;
+}
+
+/*.dark {
+    background-image: url(./sun.png);
+  }*/
